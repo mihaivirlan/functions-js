@@ -1,19 +1,25 @@
-    //Closures - functions which are defined for example in another function
-// function generator(input) {
-//     var number = input;
-//     return function() {
-//         return number * 2;
-//     };
-// }
-// var calc = generator(900);
-// console.log(calc());
+    //Immediately Invoked Function Executions (IIFEs)
+    //IIFEs in a local scope
+// (function calc() {
+//     console.log('Calc');
+// })();
 
-// function generator(input) {
-//     var number = input;
-//     return function() {
-//         return number * 2;
-//     };
-// }
-// var calc = generator(900);
-// var calcAnother = generator(1000)
-// console.log(calc());
+// (function calc() {
+//     var number = 10;
+//     console.log(number);
+// })();
+
+// (function calc() {
+//     var number = 10;
+//     console.log(number);
+// })();
+// console.log(number);
+// //Register function in a local scope
+
+// var obj = {};
+// (function calc(input) {
+//     obj.name = 'Max';
+// })(obj);
+// console.log(obj);
+// //IIFEs in a global scope
+// //Created the object on the global scope, is registered in the global scope!
