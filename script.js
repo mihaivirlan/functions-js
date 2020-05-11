@@ -23,3 +23,57 @@
 // console.log(obj);
 // //IIFEs in a global scope
 // //Created the object on the global scope, is registered in the global scope!
+
+
+
+    //Built-in Methods & Properties
+// function message(message) {
+//     console.log(message);
+//     console.log(arguments);
+// }
+// message('Hi!');
+
+// function message(message) {
+//     console.log(message);
+//     console.log(arguments);
+// }
+// message('Hi!', 10);
+
+// function message(message) {
+//     console.log(message);
+//     console.log(arguments[2]);
+// }
+// message('Hi!', 10);
+
+// function message(message) {
+//     console.log(message);
+//     console.log(arguments.length);
+// }
+// message('Hi!', 10);
+
+// function message(message) {
+//     console.log(message);
+// }
+// console.log(message.name);
+
+// function message(message) {
+//     console.log(message);
+// }
+// var msg = message;
+// console.log(msg.name);
+
+// function message(message, number) {
+//     console.log(message);
+// }
+// var msg = message;
+// console.log(msg.length);
+
+// var msg = function message(message) {
+//     console.log(message);
+// }
+// console.log(msg.length);
+
+// function message(message) {
+//     console.log(this.name);
+// };
+// message();
